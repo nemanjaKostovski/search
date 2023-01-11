@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Image Search</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li class="nav-item"><a href="/index.html">Search</a></li>
+        </ul>
+      </nav>
+    </header>
+    <form class="search" action="https://www.google.com/search?tbm=isch&q=" method="GET">
+      <h1>Image Search</h1>
+      <input class="query" type="text" name="q" autofocus />
+      <input hidden="true" name="'tbm" value="tbm=isch">
+      <input class="submit" type="submit" value="Image Search" />
+    </form>
+  </body>
+</html>

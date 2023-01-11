@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: auto;
+}
+
+.navbar {
+  position: absolute;
+  right: 10px;
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.search input {
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 10px;
+}
+
+.query {
+  width: 30%;
+  height: 40px;
+}
+
+.submit {
+  margin-top: 20px;
+  width: 10%;
+  height: 30px;
+}
+
+.submit:hover {
+  background-color: #afafaf;
+  cursor: pointer;
+}
+
+.advanced-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  width: 600px;
+}
+
+label input {
+  width: 300px;
+  height: 30px;
+}
+
+.wrap input {
+  width: 150px;
+}
+
+.advanced-form .submit {
+  margin-left: 300px;
+  background-color: rgb(33, 135, 168);
+  color: white;
+}
