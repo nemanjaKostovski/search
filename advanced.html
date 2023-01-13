@@ -15,13 +15,24 @@
         </ul>
       </nav>
     </header>
-    <form class="advanced-form" action="https://google.com/search">
+    <form class="advanced-form" action="https://google.com/search" method="get">
       <h1>Advanced Search</h1>
-      <h3>Find pages with…</h3> 
-      <label for="all">“all these words:”<input id="all" type="text"  autofocus></label>
-      <label for="exact">“this exact word or phrase:”<input id="exact" type="text"></label>
-      <label for="any">“any of these words:”<input id="any" type="text"></label>
-      <label for="none">“none of these words:”<input id="none" type="text"></label>
+      <h3>Find pages with…</h3>
+      <label for="all"
+        >“all these words:”<input id="all" type="text" name="q" autofocus
+      /></label>
+      <label for="exact"
+        >“this exact word or phrase:”<input
+          id="exact"
+          type="text"
+          name="as_epq"
+      /></label>
+      <label for="any"
+        >“any of these words:”<input id="any" type="text" name="as_oq"
+      /></label>
+      <label for="none"
+        >“none of these words:”<input id="none" type="text" name="as_eq"
+      /></label>
       <input class="submit" type="submit" value="Advanced Search" />
     </form>
   </body>
